@@ -1,12 +1,12 @@
-Project: Travel Tourist
-Database: SQL (Online Clever Cloud)
+# Project Name: Travel Tourist (Hibernate project)
 
+Database: SQL (Online Clever Cloud)
 1. Project Setup:
    - Create a dynamic web project using Eclipse IDE
    - Convert the project to Maven
    - Open pom.xml and add the following dependencies:
 
-   ```xml
+```xml
    <dependencies>
        <!-- Hibernate Core -->
        <dependency>
@@ -21,7 +21,7 @@ Database: SQL (Online Clever Cloud)
            <version>8.2.0</version>
        </dependency>
    </dependencies>
-   ```
+```
 
 2. Hibernate Configuration:
    - Create a new XML file named hibernate.cfg.xml in src/main/java

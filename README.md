@@ -1,6 +1,26 @@
 # Project Name: Travel Tourist (Hibernate project)
 
-Database: SQL (Online Clever Cloud)
+__This project structure provides a basic framework for a Travel Tourist application using Hibernate and SQL. Here's a brief explanation of the key components:__
+
+**Project Setup**: We've set up a Maven project with Hibernate and MySQL Connector dependencies.
+Hibernate Configuration: The hibernate.cfg.xml file contains the database connection settings and Hibernate properties.
+Entity Class: The TouristLocations class represents the database table, with appropriate JPA annotations.
+
+**CRUD Operations:**
+**Insert**: Creates a new tourist location entry.
+**Select**: Retrieves all tourist locations.
+**Search by ID**: Finds a specific tourist location by its ID.
+**Update**: Modifies an existing tourist location's details.
+**Delete**: Removes a tourist location from the database.
+
+
+
+**To use this project:**
+-Set up your MySQL database on Online Clever Cloud.
+-Update the hibernate.cfg.xml file with your database connection details.
+-Implement the necessary servlets or controllers to handle HTTP requests and responses.
+-Create JSP pages or use a frontend framework to build the user interface.
+
 1. Project Setup:
    - Create a dynamic web project using Eclipse IDE
    - Convert the project to Maven

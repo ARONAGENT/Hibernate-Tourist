@@ -1,4 +1,4 @@
-# Project Name: Travel Tourist (Hibernate project)
+# Travel Tourist Reviews App (Hibernate project)
 
 __This project structure provides a basic framework for a Travel Tourist application using Hibernate and SQL. Here's a brief explanation of the key components:__
 
@@ -8,9 +8,13 @@ Entity Class: The TouristLocations class represents the database table, with app
 
 **CRUD Operations:**
 **Insert**: Creates a new tourist location entry.
+
 **Select**: Retrieves all tourist locations.
+
 **Search by ID**: Finds a specific tourist location by its ID.
+
 **Update**: Modifies an existing tourist location's details.
+
 **Delete**: Removes a tourist location from the database.
 
 

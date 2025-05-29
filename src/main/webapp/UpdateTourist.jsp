@@ -1,6 +1,5 @@
 <%@page import="org.hibernate.mapping.List"%>
 <%@page import="org.hibernate.query.Query"%>
-<%@page import="com.om.entities.TouristLocations"%>
 <%@page import="org.hibernate.Session"%>
 <%@page import="org.hibernate.SessionFactory"%>
 <%@page import="org.hibernate.cfg.Configuration"%>

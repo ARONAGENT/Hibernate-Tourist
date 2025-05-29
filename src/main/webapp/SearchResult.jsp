@@ -43,12 +43,12 @@ if(list.size()==1)
 	
      <tr>
            <td><th>LocationID</th></td>
-            <td><%=tl.getLocationID() %></td>
+            <td><%=tl.getLocationid() %></td>
 
      </tr> 
      <tr>
      <td><th>Location Name</th></td>
-     <td><%=tl.getLocationName() %></td>
+     <td><%=tl.getLocationname()%></td>
      </tr>  
       <tr>
           <td><th>City</th></td>
@@ -63,7 +63,7 @@ if(list.size()==1)
        </tr>
       <tr>
              <td><th>AverageRating</th></td>
-            <td><%=tl.getAverageRating() %></td>
+            <td><%=tl.getAveragerating() %></td>
        </tr>
     
     
@@ -75,8 +75,8 @@ else
 	response.sendRedirect("TouristNotFound.jsp");
 }
 
-ses.close();
-%>
+ses.close(); %>
+
 
 <hr>
 <a href="SearchTourist.jsp"><button type="button" class="btn btn-info">Back</button></a>

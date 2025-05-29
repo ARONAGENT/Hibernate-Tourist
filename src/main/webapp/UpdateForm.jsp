@@ -3,7 +3,6 @@
 <%@page import="java.util.List"%>
 <%@page import="org.hibernate.query.Query"%>
 <%@page import="org.hibernate.Session"%>
-<%@page import="com.om.entities.TouristLocations"%>
 <%@page import="org.hibernate.SessionFactory"%>
 <%@page import="org.hibernate.cfg.Configuration"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"

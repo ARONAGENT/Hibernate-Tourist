@@ -7,15 +7,16 @@ Hibernate Configuration: The hibernate.cfg.xml file contains the database connec
 Entity Class: The TouristLocations class represents the database table, with appropriate JPA annotations.
 
 **CRUD Operations:**
-**Insert**: Creates a new tourist location entry.
 
-**Select**: Retrieves all tourist locations.
+-**1.Insert**: Creates a new tourist location entry.
 
-**Search by ID**: Finds a specific tourist location by its ID.
+-**2.Select**: Retrieves all tourist locations.
 
-**Update**: Modifies an existing tourist location's details.
+-**3.Search by ID**: Finds a specific tourist location by its ID.
 
-**Delete**: Removes a tourist location from the database.
+-**4.Update**: Modifies an existing tourist location's details.
+
+-**5.Delete**: Removes a tourist location from the database.
 
 
 
